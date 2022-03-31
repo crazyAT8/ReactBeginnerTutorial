@@ -37,3 +37,31 @@ How to het the most from this course
 3. Build a React info site | First React
 
 4. Build a React info site | First React Practice
+
+5. Lesson5-LocalSetup(theQuickWay)
+        they just show you how set up live server in visual studio
+
+6. Build a React info site | Why React? It's Composable!
+    - it's composable
+        make a library of features
+            make anything from the library a function and then call upon it
+    - it's declarative (opposite is Imperative)
+        we can tell it what should be done
+            computer says
+                "just tell me what to do, and I'll worry about how I get it done"
+        Imperatively
+            how should it be done?
+                computer says
+                    "describe to me every step on how to do something, and I'll do it"
+                        aka "vanilla javaScript"
+    - it's a hirable skill
+    - it's actively maintained by skilled people
+
+8. Build a REact info site | JSX
+    - how to write multiple html elements 
+        inside one rendering
+    - always have a parent element
+
+9. Build a React info site | Goodbye, CDNs!
+
+10. Build a React info Site | Thought Experiment

@@ -65,3 +65,52 @@ How to het the most from this course
 9. Build a React info site | Goodbye, CDNs!
 
 10. Build a React info Site | Thought Experiment
+
+11. Build a React info site | Project 1 Part 1- MarkUp
+    // saving your JSX to a single variable 
+            is not a common use in react
+    // going to start covering how to create
+            custom components
+
+12. Build a React info site | Pop Quiz! 
+    1. Why do we need 'import React from "react"' in our file?
+            React is what defines JSX
+
+    2. If I were to console.log(page) in index.js what would show up?
+            A JavaScript Object
+                React elements that describe what 
+                    React should eventually add to the real DOM for us.
+
+    3. Whats wrong with this code:
+            const page = (
+                <h1>Hello</h1>
+                <p>This is my website!</p>
+            )
+        we need our JSX to be nested under a single parent element
+    
+    4. What does it mean for something to be "declaritive" instead of "imperative"?
+            Declarative means I can tell the computer what to do
+                and expect it to handle the details.
+                    Imperative means I need to 
+                        tell it how to do each step
+    
+    5. What does it mean for something to be "composable"?
+            We have small pieces that we can put together
+                to make something larger/greater
+                    than the individual pieces
+
+13. Build a React info site | Custom Components
+    - stuffing all your elements into one place 
+        eg a single render or variable
+            makes it really hard to edit
+    - instead of a single variable
+        make it a function instead
+
+    - Rules that need to be followed for writing a
+            React Component from a JavaScript Function 
+        1. we need to us pascal case instead of camol case for our names
+                which means that you have to capitalize the first letter
+        2. need to wrap our component/function calls in
+                angle brackets </>
+                    just like html
+

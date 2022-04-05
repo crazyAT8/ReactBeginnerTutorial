@@ -33,3 +33,5 @@ document.getElementById("root2").append(JSON.stringify(page));
 // It's only when we us the ReactDOM.render
     // that react takes these JavaScript objects
         // and displays them in the DOM
+
+ReactDOM.render(page, document.getElementById("root3"));

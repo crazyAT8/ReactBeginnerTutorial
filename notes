@@ -11,7 +11,7 @@ If you want to fallow along with the course
 
 1. Build a React info site | Welcome to an introduction of React!
 
-How to het the most from this course
+How to get the most from this course
     - easiest way is the hard way   
         * Avoid "tutorial hell"
         * This isn't school
@@ -113,4 +113,57 @@ How to het the most from this course
         2. need to wrap our component/function calls in
                 angle brackets </>
                     just like html
+    - why are we making one component
+        with a tone of little itty bitty things inside
+            thought we were supposed to be dividing those up
 
+15. Build a React info site | Custom Components Quiz 
+                        1. What is a React component?
+                                //a function that return React Elements. (UI)
+                                    //it can be run over and over
+
+                        2. What's wrong with this code?
+                        .....
+                        function myComponent() {                        //Not in Pascal Case
+                            return (
+                                <small>I'm tiny text!</small>
+                            )
+                        }
+                        ......
+
+                        3. What's wrong with this code?
+                        ......
+                        function Header() {
+                            return (
+                                <header>
+                                    <nav>
+                                        <img src=".react-logo.png" width="40px">
+                                    </nav>
+                                </header>
+                            )
+                        }
+
+                    ReactDOM.render(Header(), document.getElementById("root));
+
+                            // need to render with self-closing angeled brackets
+
+16. Build a React info site | Parent/Child Components
+    - split the header into its own component
+        and the rest of the body into the other
+            then call them both with a Render
+    OR
+    - you can call the header
+        inside the body function
+            with a simple <Header />
+
+17. Build a React info site | Styling with Classes 
+    - adding a nav bar
+        to the upper right of the web page
+    - when declaring a class in React
+        you have to us the keyword
+            "className"
+                bc react is taking these JSX elements
+                    and turning them into native DOM elements
+    - Vanilla JavaScript Equivalent
+        const ul = document.createElement("ul")
+        ul.className = "";

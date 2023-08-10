@@ -1,6 +1,6 @@
 /*
                                                         ======================
-                                                                            Challenge
+                                                              Challenge
                                                         ======================
     - find out what happens if we try to append JSX to our div#root using .append() instead of ReactDOM
 

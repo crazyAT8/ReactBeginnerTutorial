@@ -22,7 +22,7 @@ ReactDOM.render(<Page13 />, document.getElementById("root1"));
 
 
 /*==================
-                 Challenge
+       Challenge
 ===================*/
 /*
 Part 1: Create a page of your own using a custom Page compnenet

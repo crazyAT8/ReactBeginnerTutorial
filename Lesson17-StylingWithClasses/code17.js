@@ -1,8 +1,6 @@
-
-
-/*=============
+/*=======================
         Challenge
-==============
+=========================
 
 - Add an "ul"
     inside the Header's "nav"
@@ -21,7 +19,7 @@ function Header() {
         <div>
             <header>
                 <nav className="nav-whole">
-                    <img src="ReactImage.png" alt="" width="40px" height="40px"></img>
+                    <img src="ReactImage.png" alt="reactLogo" id="reactLogo"></img>
                     <ul className="nav-items">
                         <li>Pricing</li>
                         <li>About</li>
@@ -39,7 +37,7 @@ function MainContent() {
     return (
         <div>
             <h1>
-                Challenge 16
+                Challenge 17
             </h1>
             <ol>
                 <li>something</li>

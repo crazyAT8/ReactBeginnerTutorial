@@ -28,7 +28,7 @@ console.log(element);
 
 ReactDOM.render(element, document.getElementById("root"));
 
-// Putting two elements next to one another will produce and Error
+// Putting two elements next to one another will produce an Error
 /*
 Ex:
 ReactDOM.render(
@@ -54,7 +54,7 @@ ReactDOM.render(
 
 const page = (
     <div>
-        <h1 className="header3">This is the thrid JSX Example</h1>
+        <h1 className="header3">This is the third JSX Example</h1>
         <p>This is the third paragraph</p>
     </div>
 )
@@ -66,7 +66,7 @@ ReactDOM.render(
 
 /*                                                    
                                                             =====================
-                                                                                Challenge
+                                                                  Challenge
                                                             ======================
 Create a navbar in JSX:
     - Use the semantic `nav` element as the parent wrapper

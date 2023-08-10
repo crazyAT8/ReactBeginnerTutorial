@@ -1,0 +1,9 @@
+For testing purposes you need to include 
+    these three script CDNs in head section of your HTML code 
+
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+Note: that these are CDNs 
+         they do not set you up for a React environment 

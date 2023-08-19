@@ -129,6 +129,8 @@ How to get the most from this course
         with a tone of little itty bitty things inside
             thought we were supposed to be dividing those up
 
+14. Custom Components Part 2 [1:06:54]
+
 15. Build a React info site | Custom Components Quiz 
                         1. What is a React component?
                                 //a function that return React Elements. (UI)
@@ -159,7 +161,7 @@ How to get the most from this course
 
                             // need to render with self-closing angeled brackets
 
-16. Build a React info site | Parent/Child Components
+16. Build a React info site | Parent/Child Components [1:13:42]
     - split the header into its own component
         and the rest of the body into the other
             then call them both with a Render
@@ -168,7 +170,7 @@ How to get the most from this course
         inside the body function
             with a simple <Header />
 
-17. Build a React info site | Styling with Classes 
+17. Build a React info site | Styling with Classes [1:18:40]
     - adding a nav bar
         to the upper right of the web page
     - when declaring a class in React

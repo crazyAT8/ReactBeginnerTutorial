@@ -8,7 +8,7 @@ by creating and appending an h1 to our div#root (without using innerHTML).
 - append it as a child of the div#root 
 */ 
 
-//Vanilla JavaScript
+//Vanilla JavaScript ----------- Imparitively
 const h1 = document.createElement("h1")
 h1.textContent = "This is an imperative way to program"
 h1.className = "header"

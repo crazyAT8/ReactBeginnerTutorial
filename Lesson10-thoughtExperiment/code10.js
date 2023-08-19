@@ -27,6 +27,7 @@ const page = (
 
 document.getElementById("root").append(page);
 // returns [object Object]
+//      it's like a string representation of a regular JS object
 document.getElementById("root2").append(JSON.stringify(page));
 // returns a huge JavaScript Object
 

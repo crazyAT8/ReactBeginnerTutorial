@@ -186,3 +186,5 @@ How to get the most from this course
     - basically
         we are going to take all these different sections
             and put them in there own folder
+
+19. Setup a local React environment w/ Create React App

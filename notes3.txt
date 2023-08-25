@@ -1,0 +1,38 @@
+                Open in Local Browser 
+                    aka no bundlers or build tools
+                        just JavaScript and HTML files 
+
+
+JS Main File 
+
+import { Component1 } from './component1.js';
+
+function App() {
+    return (
+        <div>
+            <Component1 />
+        </div>
+    );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+JS Component Files 
+
+export function Component1() {
+    return <p>This is Component 1</p>;
+}
+
+
+
+HTML File 
+
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+<div id="root"></div>
+
+<script type="module" src="app.js"></script>
+
+
